@@ -46,29 +46,20 @@ Note: `publications.json` is loaded with `fetch()`, which browsers block on
 `file://` addresses — preview via `python3 -m http.server` rather than
 double-clicking the file.
 
-## Publish on GitHub Pages (≈5 minutes)
+## Published — GitHub Pages
 
-The site is already configured for a **project page** — every internal link is
-relative, so it works at `https://glenn-white.github.io/Website/` without changes.
+The site is **live** at <https://glenn-white.github.io/> — a GitHub *user page*,
+served from the `glenn-white/glenn-white.github.io` repository (renamed from
+`Website` on 2026-09-23). This folder is that repository's working copy, with
+`origin` pointing at it. Every internal link is relative, so the tree also
+works unchanged at any subpath if it is ever moved.
 
-1. Create an empty repository named exactly `Website` at
-   <https://github.com/new> (Public).
-2. In a terminal, from this `website` folder:
-   ```bash
-   git init -b main
-   git add -A
-   git commit -m "Initial academic website"
-   git remote add origin https://github.com/glenn-white/Website.git
-   git push -u origin main
-   ```
-   (No GitHub CLI needed; it will ask you to sign in on first push.)
-3. On GitHub: **Settings → Pages → Source: Deploy from a branch → Branch: main,
-   folder: / (root) → Save**.
-4. Your site appears at <https://glenn-white.github.io/Website/> within a minute
-   or two.
-
-Every later edit is just: change a file → `git add -A && git commit -m "..."` →
-`git push`. GitHub rebuilds nothing (it's static), so updates are near-instant.
+To publish an edit: change a file here, then
+```bash
+git add -A && git commit -m "..." && git push
+```
+GitHub serves the static files as-is (`.nojekyll`), so updates appear
+near-instantly after the push.
 
 Note: this folder currently lives inside the SAPIENS repository's directory. It is
 excluded from SAPIENS git via `.git/info/exclude` (local-only), so SAPIENS commits
