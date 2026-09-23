@@ -137,7 +137,7 @@ a:focus-visible, button:focus-visible {
 .hero .hero-sub {
   font-family: var(--serif); font-style: italic;
   font-size: clamp(1.1rem, 2.2vw, 1.35rem); color: #f0e6cf;
-  max-width: 34em; margin: 0 0 1.6em;
+  white-space: nowrap; margin: 0 0 1.6em;
 }
 .hero .hero-note { color: #c9d3e0; font-size: 1rem; margin-bottom: 2.2em; }
 
@@ -200,6 +200,7 @@ a:focus-visible, button:focus-visible {
 @media (max-width: 720px) {
   .two-col { grid-template-columns: 1fr; }
   .portrait { max-width: 320px; }
+  .hero .hero-sub { white-space: normal; }
 }
 
 /* ---------- news ---------- */
