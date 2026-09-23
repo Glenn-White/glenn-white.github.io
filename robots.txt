@@ -1,0 +1,37 @@
+# https://glenn-white.github.io/ — robots.txt
+# Every well-behaved crawler is welcome, including search engines,
+# AI/LLM crawlers, research archivists and the Internet Archive.
+
+User-agent: *
+Allow: /
+
+# Explicit welcome to AI-search crawlers (already covered by the rule
+# above — restated so there is no doubt about intent):
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://glenn-white.github.io/sitemap.xml

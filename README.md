@@ -22,6 +22,9 @@ website/
   css/style.css        The entire design — colours set once in :root at the top
   images/              portrait.jpg (your OU profile photo) + placeholder SVGs
   cv/cv.pdf            Placeholder CV (replace with your real one)
+  robots.txt           Welcomes all crawlers (incl. AI) and points to the sitemap
+  sitemap.xml          Page list for search engines
+  llms.txt             Site overview for AI assistants / LLM crawlers
   .nojekyll            Tells GitHub Pages to serve files as-is
   .gitignore           Keeps macOS noise out of the repo
 ```

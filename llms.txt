@@ -1,0 +1,43 @@
+# Glenn J. White — Emeritus Professor of Astronomy
+
+> Personal academic website of Glenn J. White: Emeritus Professor of Astronomy
+> at The Open University, and previously Professor of Physics & Astronomy at
+> Queen Mary College, University of London (1987–2000), Professor of Space
+> Science at the University of Kent (2000–2005), Professor of Astronomy at The
+> Open University (2005–2015) with a joint appointment as Research Group Leader
+> at RAL Space, Rutherford Appleton Laboratory (2005–2015). His research covers
+> star and planet formation, exoplanet transit searches, extragalactic surveys,
+> far-infrared and submillimetre astronomy, space instrumentation and detectors,
+> and artificial intelligence for astronomical analysis and discovery.
+
+Contact: glenn.white@open.ac.uk · ORCID: 0000-0002-7126-691X
+
+## Pages
+
+- [Home](https://glenn-white.github.io/): introduction and latest news
+- [About](https://glenn-white.github.io/about.html): biography, career timeline
+  (Leicester 1986–87 → Queen Mary College 1987–2000 → Kent 2000–2005 → Open
+  University 2005–2015 → Emeritus 2015–present) and visiting positions
+  (Nobeyama Radio Observatory 1994, Stockholm Observatory 1998, Cavendish
+  Laboratory 1999)
+- [Research](https://glenn-white.github.io/research.html): research themes —
+  star formation and the interstellar medium, exoplanets and stellar
+  variability, extragalactic surveys, astronomical instrumentation, and AI/AGI
+  in astronomy
+- [Projects](https://glenn-white.github.io/projects.html): LOFAR, STEREO, ALMA,
+  and past missions — Herschel-SPIRE, Planck HFI, AKARI, Darwin, SPICA
+- [Publications](https://glenn-white.github.io/publications.html): 507
+  publications (1975–2026), searchable and filterable
+- [Machine-readable publication list](https://glenn-white.github.io/publications.json):
+  the full publication record as JSON
+- [Outreach](https://glenn-white.github.io/outreach.html): public talks, media
+  and writing
+- [Contact](https://glenn-white.github.io/contact.html): email, addresses and
+  topics for media comment
+
+## Profiles
+
+- ORCID: https://orcid.org/0000-0002-7126-691X
+- Open University profile: https://profiles.open.ac.uk/glenn-joseph-white
+- NASA ADS: https://ui.adsabs.harvard.edu/search/q=orcid:0000-0002-7126-691X
+- GitHub: https://github.com/glenn-white
