@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Publications — Glenn J. White</title>
+  <meta name="description" content="My publications — the full list cached locally from the OU Profiles record, each entry linked to ORO.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<nav class="site-nav" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a class="brand" href="index.html"><span class="brand-mark">GW</span> Glenn J. White</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="publications.html" aria-current="page">Publications</a></li>
+      <li><a href="outreach.html">Outreach</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main id="main">
+
+  <header class="page-banner">
+    <div class="container">
+      <h1>Publications</h1>
+      <p>My full publication list is cached locally in <code>publications.json</code>, so the
+      site does not depend on any university server. Each record links out to its entry in
+      <a href="https://oro.open.ac.uk/" rel="noopener">ORO</a>, the Open University’s research
+      repository. The authoritative indexes are
+      <a href="https://ui.adsabs.harvard.edu/search/q=orcid:0000-0002-7126-691X">NASA ADS</a>,
+      <a href="https://orcid.org/0000-0002-7126-691X">ORCID</a> and
+      <a href="https://scholar.google.com/citations?view_op=search_authors&amp;mauthors=%22Glenn+J.+White%22">Google Scholar</a>.
+      A downloadable list is here: <a href="cv/cv.pdf">full publication list (PDF)</a>.</p>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       The list below is rendered by js/publications.js from the
+       cached publications.json. To update the records, refresh
+       publications.json (see README) — no HTML editing needed.
+       ============================================================ -->
+  <section class="section" id="pub-app">
+    <div class="container">
+      <span class="kicker">Research outputs</span>
+      <div class="section-head" style="display:flex;flex-wrap:wrap;align-items:baseline;gap:14px">
+        <h2 style="margin-bottom:0">All publications</h2>
+        <span class="pub-count" style="color:var(--muted);font-size:.95rem" aria-live="polite">loading…</span>
+      </div>
+
+      <p class="pub-fallback" hidden style="color:var(--muted)">
+        This page needs JavaScript and a web server to read the cached
+        <code>publications.json</code> file. If you opened the file directly from disk
+        (a <code>file://</code> address), run <code>python3 -m http.server</code> in the
+        website folder and reload — or use the ADS/ORCID links above for the live record.
+      </p>
+
+      <div class="pub-controls" role="group" aria-label="Filter publications"></div>
+
+      <noscript>
+        <p style="color:var(--muted)">JavaScript is disabled, so the cached publication list
+        cannot be displayed here. The complete record is available on
+        <a href="https://ui.adsabs.harvard.edu/search/q=orcid:0000-0002-7126-691X">NASA ADS</a>
+        and in <a href="cv/cv.pdf">this PDF</a>.</p>
+      </noscript>
+
+      <div class="pub-list"></div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>Glenn J. White · Emeritus Professor of Astronomy · The Open University · RAL Space, Rutherford Appleton Laboratory</p>
+    <p class="footer-links">
+      <a href="mailto:glenn.white@open.ac.uk">Email</a>·
+      <a href="https://orcid.org/0000-0002-7126-691X">ORCID</a>·
+      <a href="https://ui.adsabs.harvard.edu/search/q=orcid:0000-0002-7126-691X">NASA ADS</a>·
+      <a href="https://scholar.google.com/citations?view_op=search_authors&amp;mauthors=%22Glenn+J.+White%22">Google Scholar</a>·
+      <a href="https://github.com/glenn-white">GitHub</a>
+    </p>
+    <p class="fine">© 2026 Glenn J. White. Hand-built static site — no cookies, no trackers.</p>
+  </div>
+</footer>
+
+<script src="js/publications.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+# macOS noise
+.DS_Store
+
+# Editor scratch
+*.swp
+*~

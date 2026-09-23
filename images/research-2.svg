@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="Research image placeholder 2">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#12303c"/><stop offset="1" stop-color="#2e7d74"/></linearGradient></defs>
+  <rect width="800" height="500" fill="url(#g)"/>
+  <ellipse cx="400" cy="250" rx="220" ry="90" fill="none" stroke="#f0e6cf" stroke-width="2.5" opacity=".7" transform="rotate(-18 400 250)"/>
+  <ellipse cx="400" cy="250" rx="150" ry="55" fill="none" stroke="#f0e6cf" stroke-width="2" opacity=".45" transform="rotate(-18 400 250)"/>
+  <circle cx="400" cy="250" r="42" fill="#d9a441" opacity=".9"/>
+  <text x="40" y="450" font-family="Georgia, serif" font-size="24" fill="#f0e6cf">Research image 2 — replace me</text>
+  <text x="40" y="475" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#c9d3e0">images/research-2.svg → your figure/photo</text>
+</svg>

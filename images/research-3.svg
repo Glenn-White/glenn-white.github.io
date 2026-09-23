@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="Research image placeholder 3">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#251b3a"/><stop offset="1" stop-color="#5c4a8a"/></linearGradient></defs>
+  <rect width="800" height="500" fill="url(#g)"/>
+  <g fill="#f0e6cf">
+    <circle cx="180" cy="160" r="3.5" opacity=".9"/><circle cx="330" cy="110" r="2.5" opacity=".7"/>
+    <circle cx="520" cy="180" r="3" opacity=".8"/><circle cx="660" cy="120" r="2.5" opacity=".6"/>
+    <circle cx="240" cy="300" r="2.5" opacity=".6"/><circle cx="580" cy="330" r="3.5" opacity=".8"/>
+  </g>
+  <path d="M120 340 C 260 220, 420 380, 560 260 S 720 180, 760 150" fill="none" stroke="#d9a441" stroke-width="3" opacity=".9"/>
+  <text x="40" y="450" font-family="Georgia, serif" font-size="24" fill="#f0e6cf">Research image 3 — replace me</text>
+  <text x="40" y="475" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#c9d3e0">images/research-3.svg → your figure/photo</text>
+</svg>

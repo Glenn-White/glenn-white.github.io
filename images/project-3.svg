@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="625" viewBox="0 0 1000 625" role="img" aria-label="Project image placeholder 3">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#332015"/><stop offset="1" stop-color="#8a5a2e"/></linearGradient></defs>
+  <rect width="1000" height="625" fill="url(#g)"/>
+  <g stroke="#f0e6cf" stroke-width="3" opacity=".8" fill="none">
+    <path d="M420 180 a 80 80 0 1 0 160 0"/>
+    <path d="M500 260 v 120"/>
+    <path d="M380 380 h 240"/>
+  </g>
+  <circle cx="500" cy="180" r="14" fill="#d9a441"/>
+  <text x="50" y="570" font-family="Georgia, serif" font-size="26" fill="#f0e6cf">Project 3 image — replace me</text>
+  <text x="50" y="598" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c9d3e0">images/project-3.svg → your image</text>
+</svg>
