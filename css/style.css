@@ -215,6 +215,20 @@ a:focus-visible, button:focus-visible {
   .news li { grid-template-columns: 1fr; gap: 2px; }
 }
 
+/* ---------- media strip (outreach) ---------- */
+
+.media-strip {
+  display: flex; flex-wrap: wrap; gap: 14px;
+  align-items: center; margin-top: 26px;
+}
+.media-strip img {
+  height: 150px; width: auto; max-width: 100%;
+  border-radius: 8px; box-shadow: var(--shadow);
+}
+@media (max-width: 560px) {
+  .media-strip img { height: 110px; }
+}
+
 /* ---------- publications ---------- */
 
 .pub {
