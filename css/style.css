@@ -130,16 +130,16 @@ a:focus-visible, button:focus-visible {
     url("../images/hero.svg");
   background-size: cover;
   background-position: center;
-  padding: 104px 0 96px;
+  padding: 56px 0 48px;
 }
 
 .hero h1 { margin-bottom: .25em; }
 .hero .hero-sub {
   font-family: var(--serif); font-style: italic;
   font-size: clamp(1.1rem, 2.2vw, 1.35rem); color: #f0e6cf;
-  white-space: nowrap; margin: 0 0 1.6em;
+  white-space: nowrap; margin: 0 0 1.1em;
 }
-.hero .hero-note { color: #c9d3e0; font-size: 1rem; margin-bottom: 2.2em; }
+.hero .hero-note { color: #c9d3e0; font-size: 1rem; margin-bottom: 1em; }
 
 .btn {
   display: inline-block; padding: 11px 22px; border-radius: 8px;
@@ -351,7 +351,7 @@ table.plain th { font-size: .8rem; text-transform: uppercase; letter-spacing: .0
 @media (max-width: 720px) {
   .nav-inner { flex-wrap: wrap; gap: 6px; }
   .nav-links { margin-left: 0; width: 100%; }
-  .hero { padding: 72px 0 64px; }
+  .hero { padding: 44px 0 40px; }
   .section { padding: 44px 0; }
 }
 
