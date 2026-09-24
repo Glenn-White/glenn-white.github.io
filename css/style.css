@@ -203,18 +203,6 @@ a:focus-visible, button:focus-visible {
   .hero .hero-sub { white-space: normal; }
 }
 
-/* ---------- news ---------- */
-
-.news { list-style: none; margin: 0; padding: 0; }
-.news li {
-  display: grid; grid-template-columns: 120px 1fr; gap: 16px;
-  padding: 13px 0; border-bottom: 1px dashed var(--line);
-}
-.news time { font-weight: 700; font-size: .88rem; color: var(--accent-deep); padding-top: 2px; }
-@media (max-width: 560px) {
-  .news li { grid-template-columns: 1fr; gap: 2px; }
-}
-
 /* ---------- media strip (outreach) ---------- */
 
 .media-strip {
