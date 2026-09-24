@@ -9,16 +9,18 @@ CSS file: no frameworks, no build step, no trackers, no external fonts.
 
 ```
 website/
-  index.html           Home — hero, intro, news, research highlights, recent papers
-  about.html           Biography, career timeline, awards, CV download
+  index.html           Home — hero, intro, research highlights, preprints, latest papers
+  about.html           Biography, career timeline, awards
   research.html        Research themes (one section per theme)
   projects.html        Named projects / missions / surveys / instruments
   publications.html    Publications page — renders the cached JSON below
   outreach.html        Public talks, media, writing & resources
   contact.html         Address, office hours, map embed, notes for correspondents
   publications.json    All 500+ publication records, cached locally (data file)
+  publications.pdf     Downloadable full list — generated from the JSON, never hand-edited
   js/publications.js   Renders publications.json onto the page (filter + search)
   tools/update_publications.py   Re-downloads the OU profile and refreshes the cache
+  tools/make_publications_pdf.py   Builds publications.pdf from publications.json
   css/style.css        The entire design — colours set once in :root at the top
   images/              portrait.jpg (your OU profile photo) + placeholder SVGs
   cv/cv.pdf            Placeholder CV (replace with your real one)
@@ -49,6 +51,20 @@ Note: `publications.json` is loaded with `fetch()`, which browsers block on
 `file://` addresses — preview via `python3 -m http.server` rather than
 double-clicking the file.
 
+## Downloadable publication list (publications.pdf)
+
+The "full publication list (PDF)" link on the publications page points at
+`publications.pdf`, which is **generated from `publications.json`** — never
+hand-edited. GitHub Pages is static hosting, so the PDF cannot be built at the
+moment someone clicks; instead it is regenerated whenever the database changes:
+
+- Refreshing the cache with `tools/update_publications.py` rebuilds the PDF
+  automatically (stdlib only, no dependencies).
+- A GitHub Action (`.github/workflows/regenerate-publications-pdf.yml`) also
+  rebuilds and commits it on any push that changes `publications.json`.
+
+To regenerate by hand: `python3 tools/make_publications_pdf.py`.
+
 ## Published — GitHub Pages
 
 The site is **live** at <https://glenn-white.github.io/> — a GitHub *user page*,
@@ -75,8 +91,8 @@ as above.
   between `<!-- ==== ... ==== -->` comment banners, and placeholders look like
   `[Your University]`, `[Month Year]`, `[Paper title]`. Search for `[` to find
   every placeholder in a file. Edits appear the moment you save and push.
-- **Add a news item** (home page): copy one `<li>…</li>` inside the news `<ul>`
-  and edit it. Keep 4–6 newest; delete old ones.
+- **Add a preprint** (home page): copy one `<div class="pub">…</div>` block in
+  the Preprints section and edit it. Keep the newest few; delete old ones.
 - **Add a publication**: copy one `<div class="pub">…</div>` block under the
   right year heading. To start a new year, copy a `<h2 class="year-head">` line.
 - **Add a research theme / project / group member / course**: copy the whole

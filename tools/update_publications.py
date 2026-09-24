@@ -115,6 +115,15 @@ def main():
     print(f"Wrote {len(pubs)} records to {OUT_FILE}")
     print("By type:", data["meta"]["counts"]["by_type"])
 
+    # keep the downloadable PDF in step with the refreshed database
+    import subprocess
+    import sys
+    pdf_script = Path(__file__).parent / "make_publications_pdf.py"
+    try:
+        subprocess.run([sys.executable, str(pdf_script)], check=True)
+    except Exception as exc:  # a PDF failure should not lose the JSON refresh
+        print(f"Warning: publications.pdf was not regenerated ({exc})")
+
 
 if __name__ == "__main__":
     main()
