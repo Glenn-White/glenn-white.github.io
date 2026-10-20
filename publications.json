@@ -3,11 +3,11 @@
   "person": "Glenn J. White",
   "source_url": "https://profiles.open.ac.uk/glenn-joseph-white",
   "source_note": "Cached snapshot of the OU Profiles publication list; per-record links point to ORO (oro.open.ac.uk), the Open University's research repository.",
-  "fetched": "2026-09-23",
+  "fetched": "2026-10-20",
   "counts": {
-   "total": 507,
+   "total": 508,
    "by_type": {
-    "JournalArticle": 404,
+    "JournalArticle": 405,
     "Data": 12,
     "Presentation/ConferenceContribution": 79,
     "Report": 1,
@@ -25,6 +25,13 @@
   }
  },
  "publications": [
+  {
+   "type": "JournalArticle",
+   "year": 2026,
+   "title": "ALOHA IRDCs Molecular Line Follow-up: I. Gas properties and kinematics",
+   "url": "https://www.aanda.org/articles/aa/full_html/2026/10/aa60609-26/aa60609-26.html",
+   "citation": "Xie, J., Yan, Y., Ren, Z., ... White, G. J., ... (2026). ALOHA IRDCs Molecular Line Follow-up: I. Gas properties and kinematics. Astronomy & Astrophysics."
+  },
   {
    "type": "JournalArticle",
    "year": 2026,
